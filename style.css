@@ -1,0 +1,298 @@
+html {
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    font-size: 6rem;
+}
+h2 {
+    font-size: 3rem;
+}
+h3 {
+    font-size: 2.5rem;
+}
+h4, h5{
+    font-size: 1.5rem;
+}
+
+li {
+    font-size : 1.5rem;
+}
+/*  Header */
+
+
+.main-head {
+    width: 100%;
+    top: 0;
+    display: flex;
+}
+
+#accueil {
+    display: flex;
+    position: fixed;
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    min-height: 5vh;
+    margin : 0 auto; 
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#accueil ul {
+    flex: 1rem;
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 20px;
+    list-style: none;
+    display: flex;
+    font-weight: normal;
+    border-bottom :solid white 1px;
+}
+
+#accueil ul a {
+    padding: 2rem;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+#accueil ul a:hover {
+    font-size: 1.65rem;
+    font-weight: 400;
+    color: wheat;
+}
+
+@media screen and (max-width:885px)  {
+    html {
+        font-size: 50%;
+    }
+    nav {
+        text-align: center;
+    }
+}
+
+
+
+
+/* PRESENTATION */
+
+.background-accueil {
+    min-height: 100vh;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.4), transparent), url(/image/caucasian-man-working-shoot.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items:center;
+    text-align: center;
+    position: relative;
+}
+
+.presentation h1 {
+    font-family: 'Abel', sans-serif;
+}
+
+#nom {
+    font-size: 3rem;
+    padding: 2rem;
+    font-family: 'Abel', sans-serif;
+    color: wheat;
+}
+
+#logo {
+    position: fixed;
+}
+
+#page-suivante-accueil {
+    position: absolute;
+    position: fixed;
+    bottom: 0px;
+    font-size: 3rem;  
+}
+#page-suivante-accueil i {
+    color: wheat;
+}
+
+/* A propos de */
+
+#container-a-propos {
+    width: 500px;
+    height: auto;
+    color: white;
+    margin: 0 auto;
+    padding: 2rem;
+    font-size: 1.2rem;
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+}
+
+#a-propos {
+    padding-bottom: 2rem;
+
+}
+
+#background-a-propos {
+    background: #454c5e;
+    padding: 0 0;
+    height: 489px;
+}
+    
+
+
+
+/* Compétences */
+
+.skills {
+    width: 95.25%;
+    justify-content: center;
+   align-items: center;
+    display: inline-flex;
+    padding: 2rem;
+
+}
+
+
+.skills ul {
+    display: inline-flex;
+    justify-content: space-around;
+    flex: 1rem;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.skills ul li {
+    font-family: 'Abel', sans-serif;
+    list-style: none;
+}
+
+.skill i {
+    padding: 2em;
+}
+
+#background-skills h3 {
+    font-family: 'Abel', sans-serif;
+}
+#competences {
+    padding:2rem;
+    text-align: center;
+}
+
+#background-skills {
+    background: white;
+    padding: 0 0;
+    height: 489px;
+}
+
+
+#html5 {
+    border: solid black;
+    background-color: wheat;
+    width: 20%;
+    height: 200px;
+    border-radius: 80px;
+    padding-top: 3rem;
+}
+
+#css3 {
+    border: solid black;
+    background-color: wheat;
+    width: 20%;
+    height: 200px;
+    border-radius: 80px;
+    padding-top: 3rem;
+}
+
+#js {
+    border: solid black;
+    background-color: wheat;
+    width: 20%;
+    height: 200px;
+    border-radius: 80px;
+    padding-top: 3rem;
+}
+
+
+/*  Projets */
+
+.projects {
+
+    width: 95,25%;
+    padding: 2rem;
+    border: solid black;
+}
+
+
+.projects p {
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+
+#projets {
+    color: white;
+    padding:2rem;
+    text-align: center;
+}
+
+
+
+#background-projects {
+    font-family: 'Abel', sans-serif;
+    margin: 0 auto;
+    color: white;
+    background: #454c5e;
+    width: 95,25%;
+    height: 500px;
+    padding: 0 auto;
+}
+/* Contact */
+
+.contact {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 2rem;
+    border: solid black;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    font-size: 1.5rem;
+    background: #454c5e;
+    color: white;
+}
+.contact i {
+    padding: 2em;
+    color: #1466C2;
+    font-size: 1.5rem;
+}
+
+.contact i a {
+    text-decoration: none;
+    font-family: 'Abel', sans-serif;
+    color: white;
+}
+
+#contact {
+    padding:2rem;
+    text-align: center;
+}
+
+#background-contact {
+    font-family: 'Abel', sans-serif;
+    background: white;
+    width: 100%;
+    height: 500px;
+    padding: 0 0;
+}
